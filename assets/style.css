@@ -4,7 +4,12 @@ nav {
 }
 
 #navbarTogglerDemo03 {
-    text-align: right;
-    float: right;
+    /* text-align: right;
+    float: right; */
     margin-left: 70%;
 }
+
+.navigation {
+    background-color: #001f3f;
+}
+
