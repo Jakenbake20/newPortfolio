@@ -41,7 +41,7 @@ img {
 
 .section-heading {
     text-align: center;
-    margin-bottom: 10rem;
+    margin-top: 10rem;
 }
 
 .section-heading h1 {
@@ -71,7 +71,7 @@ img {
 
 .section-heading h1::after{
     width: 1.5rem;
-    height: 1.5px;
+    height: 1.5rem;
     border-radius: 100%;
     bottom: -1rem;
 }
@@ -271,5 +271,43 @@ li {
 
 .my-skills {
     margin-top: 10rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+    grid-gap: 2.5rem;
+    text-align: center;
+}
 
+.skill {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+}
+
+.skill h1{
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin: 2rem  -2px 2rem 0;
+}
+
+.icon-container {
+    width: 10rem;
+    height: 10rem;
+    border: 3px solid #ffe838;
+    background-color: #fd57bf;
+    margin-bottom: 2rem;
+    display: flex;
+    transform: rotate(45deg);
+}
+
+.icon-container i {
+    color: #ffe838;
+    font-size: 5rem;
+    margin: auto;
+    transform: rotate(-45deg);
+}
+
+.portfolio-item {
+    display: flex;
 }
