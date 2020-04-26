@@ -13,8 +13,8 @@ $(document).ready(function() {
 
     $('nav a[href*="#"]').on('click', function(){
         $('html, body').animate( {
-            scrollTop: $($(this).attr('href')).offset().top-100
-        }, 8000);
+            scrollTop: $($(this).attr('href')).offset().top -100
+        }, 5000);
     });
 
     $('#up').on('click', function(){
